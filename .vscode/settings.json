@@ -1,0 +1,11 @@
+{
+    "python.analysis.extraPaths": [
+        "./",
+        "./app"
+    ],
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.useImportHeuristic": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "python3"
+}

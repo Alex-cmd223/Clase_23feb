@@ -1,0 +1,12 @@
+# Ignorar extensiones de VS Code
+.vscode/extensions/
+.vscode/cli/
+
+# Ignorar basura de Python y Mac
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignorar entorno virtual
+venvAlex/
+.env
