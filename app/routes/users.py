@@ -19,7 +19,7 @@ def consultar_progreso():
 def actualizar_perfil():
     data = request.json
     return jsonify({
-        "status": "success",
+        "success": "true" ,
         "updated_at" : "2026-02-23T12:05:00",
         "message": "Perfil actualizado correctamente"
     }), 200
