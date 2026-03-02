@@ -4,7 +4,7 @@ from flask import Blueprint, request, jsonify
 users_bp = Blueprint('users', __name__)
 
 # Endpoint 4: Consultar progreso 
-@users_bp.route('/progreso', methods=['POST'])
+@users_bp.route('/usuarios/progreso', methods=['POST'])
 def consultar_progreso():
     data = request.json
     return jsonify({
@@ -15,7 +15,7 @@ def consultar_progreso():
     }), 200
 
 # Endpoint 5: Actualizar perfil 
-@users_bp.route('/perfil', methods=['PUT'])
+@users_bp.route('/usuarios/perfil', methods=['PUT'])
 def actualizar_perfil():
     data = request.json
     return jsonify({
